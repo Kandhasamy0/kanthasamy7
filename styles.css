@@ -1,0 +1,1206 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a dark background and white text color to the header */
+.dark-header {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* White text color */
+    padding: 10px 0;
+}
+
+/* Center the content in the header */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo */
+.logo img {display: flex;
+    max-width: 100px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900; /* Highlight color on hover */
+}
+
+/* Style the call to action button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e68a00; /* Darker background color on hover */
+}
+/* Style the logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+/* If you want to use text as your logo */
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 10px; /* Add some spacing between the logo and text */
+}
+/* Style the navigation menu */
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff9900; /* Highlight color on hover */
+}
+/* Style the call to action button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e68a00; /* Darker background color on hover */
+}
+/* Style the hero section */
+.hero {
+    background-image: url('img/grilled-skewers.webp'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Text color in the hero section */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the CTA in the hero section */
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff9900; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px; /* Add space between the text and the button */
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e68a00; /* Darker background color on hover */
+}
+/* Style the hero section */
+.hero {
+    color: #ffffff; /* Text color in the hero section */
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+/* Style the background image */
+.hero-background-image {
+    background-image: url('img/cheeseburger.webp'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.7; /* Adjust opacity for your design */
+}
+
+/* Style the background video (with a fallback poster image) */
+.hero-background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Fallback poster image styles */
+video[poster] {
+    display: none;
+}
+
+/* Style the rest of the content in the hero section */
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Style the CTA in the hero section */
+.cta-button {
+    /* Button styles (previously defined) */
+}
+/* Style the catchy headline */
+.catchy-headline {
+    font-size: 36px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 20px 0;
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 2px; /* Increase letter spacing for emphasis */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the subheadline */
+.subheadline {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #ff9900; /* Set the subheadline text color */
+    margin: 10px 0;
+    font-style: italic; /* Add italic style to the text */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the CTA button */
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff9900; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e68a00; /* Darker background color on hover */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the text within the section */
+.dark-section p {
+    font-size: 18px; /* Adjust font size as needed */
+    margin: 20px 0;
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the image container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between images */
+}
+
+/* Style individual images */
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px; /* Add rounded corners to the images */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the about text */
+.about-text {
+    font-size: 18px; /* Adjust font size as needed */
+    margin: 20px 0;
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the reasons list */
+.reasons-list {
+    list-style: none;
+    padding: 0;
+}
+
+.reasons-list li {
+    font-size: 18px; /* Adjust font size as needed */
+    margin: 20px 0;
+}
+
+/* Style the checkmark icon */
+.reasons-list li i {
+    color: #ff9900; /* Icon color */
+    margin-right: 10px; /* Spacing between icon and text */
+    font-size: 20px; /* Adjust icon size as needed */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the category list */
+.category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between categories */
+}
+
+/* Style individual categories */
+.category {
+    text-align: center;
+}
+
+.category img {
+    max-width: 100%;
+    border-radius: 10px; /* Add rounded corners to the images */
+}
+
+.category h3 {
+    font-size: 20px; /* Adjust font size as needed */
+    margin: 10px 0;
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /*margin: top: ;*/
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the image gallery */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px; /* Adjust the gap between images */
+    margin-top: 20px;
+}
+
+/* Style individual images */
+.image-gallery img {display: ruby-base-container;
+    max-width: 100%;
+    border-radius: 10px; /* Add rounded corners to the images */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 40px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the item description container */
+.item-description {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between image and info */
+    text-align: left;
+}
+
+/* Style the item image */
+.item-image img {
+    max-width: 100%;
+    border-radius: 10px; /* Add rounded corners to the image */
+}
+
+/* Style the item info */
+.item-info {
+    flex: 1;
+}
+
+.item-info h3 {
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.item-info p {
+    font-size: 18px; /* Adjust font size as needed */
+    margin: 10px 0;
+}
+
+.item-info button {
+    background-color: #ff9900; /* pink */
+    color: #1a1a1a; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.item-info button:hover {
+    background-color: #e68a00; /* Darker background color on hover */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the pricing table container */
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between pricing items */
+    text-align: left;
+}
+
+/* Style individual pricing items */
+.pricing-item {
+    flex: 1;
+    background-color: #2a2a2a; /* Pricing item background color */
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners to pricing items */
+}
+
+.pricing-item h3 {
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.pricing-item p {
+    font-size: 18px; /* Adjust font size as needed */
+    margin: 10px 0;
+}
+
+/* Style the list of features in pricing items */
+.pricing-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-item li {
+    font-size: 16px; /* Adjust font size as needed */
+    margin: 5px 0;
+}
+
+.pricing-item button {
+    background-color: #ff9900; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin-top: 20px;
+}
+
+.pricing-item button:hover {
+    background-color: #e68a00; /* Darker background color on hover */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the CTA button container */
+.cta-buttons {
+    margin-top: 20px;
+}
+
+/* Style primary CTA button */
+.cta-button.primary {
+    background-color: #ff9900; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.cta-button.primary:hover {
+    background-color: #e68a00; /* Darker background color on hover */
+}
+
+/* Style secondary CTA button */
+.cta-button.secondary {
+    background-color: #333; /* Secondary button background color */
+    color: #ffffff; /* Secondary button text color */
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.cta-button.secondary:hover {
+    background-color: #1a1a1a; /* Darker background color on hover */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the CTA text */
+.cta-text {
+    font-size: 18px; /* Adjust font size as needed */
+    margin: 20px 0;
+}
+
+/* Style the CTA button */
+.cta-button {
+    background-color: #ff9900; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #e68a00; /* Darker background color on hover */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the CTA text */
+.cta-text {
+    font-size: 18px; /* Adjust font size as needed */
+    margin: 20px 0;
+}
+
+/* Style the CTA button */
+.cta-button {
+    background-color: #ff9900; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #e68a00; /* Darker background color on hover */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the image gallery */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px; /* Adjust the gap between images */
+    margin-top: 20px;
+}
+
+/* Style individual images */
+.image-gallery img {
+    max-width: 100%;
+    border-radius: 10px; /* Add rounded corners to the images */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the image gallery container */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/* Style individual gallery items */
+.gallery-item {
+    flex: 1;
+    max-width: 300px; /* Adjust the max width as needed */
+    border-radius: 10px; /* Add rounded corners to the gallery items */
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the food images container */
+.food-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between images */
+    margin-top: 20px;
+}
+
+/* Style individual food images */
+.food-images img {
+    max-width: 100%;
+    border-radius: 10px; /* Add rounded corners to the images */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the food images container */
+.food-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between images */
+    <scr 
+    margin-top: 20px;
+}
+
+/* Style individual food images */
+.food-image {
+    text-align: center;
+    max-width: 300px; /* Adjust the max width as needed */
+}
+
+.food-image img {
+    max-width: 100%;
+    border-radius: 10px; /* Add rounded corners to the images */
+}
+
+/* Style the image captions */
+.caption {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the contact information container */
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between items */
+    margin-top: 20px;
+}
+
+/* Style individual contact information items */
+.info-item {
+    text-align: center;
+    max-width: 300px; /* Adjust the max width as needed */
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.info-item i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff9900; /* Icon color */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the contact form */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Style form labels and input fields */
+.contact-form label {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: #333; /* Form input background color */
+    color: #ffffff; /* Form input text color */
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+.contact-form button {
+    background-color: #ff9900; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #e68a00; /* Darker background color on hover */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Style the contact information container */
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between items */
+}
+
+/* Style individual contact information items */
+.info-item {
+    text-align: center;
+    max-width: 300px; /* Adjust the max width as needed */
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.info-item i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff9900; /* Icon color */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the map container */
+.map-container {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px; /* Add rounded corners to the map container */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* background-color: background-color: width: ;;;*/
+}
+
+/* Style the footer section */
+.footer {
+    background-color: #121212; /* Dark footer background color */
+    padding: 20px 0;
+}
+
+/* Style the container within the footer */
+.footer .container {
+    text-align: center;
+}
+
+/* Style the footer content */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the footer logo */
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Style the footer contact information */
+
+
+.footer-contact p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Style the footer social icons */
+.footer-social {
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #ff9900; /* Social icon color */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the social links container */
+.social-links {
+    margin-top: 20px;
+}
+
+/* Style the social icons */
+.social-icon {
+    font-size: 24px;
+    color: #ff9900; /* Social icon color */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the paragraph */
+.dark-section p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Style the newsletter signup form */
+.newsletter-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Style the email input field */
+.newsletter-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: #333; /* Form input background color */
+    color: #ffffff; /* Form input text color */
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style the subscribe button */
+.newsletter-form button {
+    background-color: #ff9900; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: #e68a00; /* Darker background color on hover */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the legal links container */
+.legal-links {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Style the links and divider */
+.legal-links a {
+    color: #ff9900; /* Link color */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.legal-links a:hover {
+    color: #e68a00; /* Darker link color on hover */
+}
+
+.divider {
+    color: #ffffff; /* Divider color */
+    margin: 0 10px;
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the copyright text */
+.copyright {
+    font-size: 16px;
+    color: #888888; /* Copyright text color */
+}
+
+/* Rest of the CSS (previously defined styles) */
+/* Style the dark-themed section */
+.dark-section {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color on dark background */
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Style the heading within the section */
+.dark-section h2 {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the paragraph text */
+.dark-section p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Style the call to action button */
+.cta-button {
+    background-color: #ff9900; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e68a00; /* Darker background color on hover */
+}
+
+/* Rest of the CSS (previously defined styles) */
